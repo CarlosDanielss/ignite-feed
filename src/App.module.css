@@ -9,3 +9,15 @@
   align-items: flex-start;
   gap: 3.2rem;
 }
+
+/* Responsive settings */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 56.5% !important;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
