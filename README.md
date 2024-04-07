@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# Ignite Feed
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido durante o curso Ignite da [Rocketseat](https://www.rocketseat.com.br), com o objetivo de aprofundar os conhecimentos em React e boas práticas de programação.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Visualizar projeto.](https://carlosdanielss.github.io/ignite-feed/)
 
-## Expanding the ESLint configuration
+## Índice
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Stack Utilizada](#stack-utilizada)
+- [Funcionalidades](#funcionalidades)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Contato](#contato)
 
-- Configure the top-level `parserOptions` property like this:
+## Sobre o Projeto
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+O projeto basicamente consiste em uma página contendo um perfil e um feed com alguns posts e comentários, onde os usuários podem interagir criando comentários, aplaudindo, e é totalmente responsivo.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Stack Utilizada
+
+**Front-end:** React, phosphor-react, sonner, date-fns
+
+## Funcionalidades
+
+- Criar comentários
+- Apagar comentários
+- Aplaudir comentários
+
+## Pré-requisitos
+
+Para começar a trabalhar no projeto do Ignite Feed, certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:
+
+- **Node.js:** O projeto depende do Node.js para gerenciamento de pacotes e execução de scripts. Se você não tiver o Node.js instalado, poderá baixá-lo em [https://nodejs.org/](https://nodejs.org/).
+
+## Instalação
+
+Siga estas etapas para colocar o projeto em funcionamento:
+
+1. Clone o repositório: `git clone [https://github.com/CarlosDanielss/ignite-feed.git)`
+2. Navegue até o diretório do projeto: `cd ignite-feed`
+3. Instale dependências: `npm install ou npm i`
+4. Inicie o servidor de desenvolvimento: `npm run dev`
+
+## Contato
+
+E-mail: carlos.daniel.0486@gmail.com
