@@ -1,5 +1,8 @@
 import { Header } from "./components/Header/Header";
 import { Sidebar } from "./components/Sidebar/Sidebar";
+import { Post } from "./components/Post/Post";
+
+import { posts } from "./data/Post";
 
 import styles from "./App.module.css";
 
@@ -11,6 +14,11 @@ function App() {
       <Header />
       <div className={styles.wrapper}>
         <Sidebar />
+        <main>
+          {posts.map((post) => {
+            return <Post key={post.id} post={post} />;
+          })}
+        </main>
       </div>
     </>
   );
