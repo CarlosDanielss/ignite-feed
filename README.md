@@ -20,7 +20,11 @@ O projeto basicamente consiste em uma página contendo um perfil e um feed com a
 
 ## Stack Utilizada
 
-**Front-end:** React, phosphor-react, sonner, date-fns
+**Front-end:** 
+- [React](https://react.dev/)
+- [phosphor-react](https://phosphoricons.com/)
+- [sonner](https://sonner.emilkowal.ski/)
+- [date-fns](https://date-fns.org/)
 
 ## Funcionalidades
 
