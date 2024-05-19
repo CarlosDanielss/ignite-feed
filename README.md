@@ -36,16 +36,28 @@ O projeto basicamente consiste em uma página contendo um perfil e um feed com a
 
 Para começar a trabalhar no projeto do Ignite Feed, certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:
 
-- **Node.js:** O projeto depende do Node.js para gerenciamento de pacotes e execução de scripts. Se você não tiver o Node.js instalado, poderá baixá-lo em [https://nodejs.org/](https://nodejs.org/).
+- **Node.js:** O projeto depende do Node.js para execução de scripts. Se você não tiver o Node.js instalado, poderá baixá-lo em [https://nodejs.org/](https://nodejs.org/).
 
 ## Instalação
 
 Siga estas etapas para colocar o projeto em funcionamento:
 
-1. Clone o repositório: `git clone [https://github.com/CarlosDanielss/ignite-feed.git)`
-2. Navegue até o diretório do projeto: `cd ignite-feed`
-3. Instale dependências: `npm install ou npm i`
-4. Inicie o servidor de desenvolvimento: `npm run dev`
+1. Clone o repositório
+```sh
+git clone [https://github.com/CarlosDanielss/ignite-feed.git)
+```
+2. Navegue até o diretório do projeto
+```sh
+cd ignite-feed
+```
+3. Instale dependências
+```sh
+npm install
+```
+4. Inicie o servidor de desenvolvimento
+```sh
+npm run dev
+```
 
 ## Contato
 
