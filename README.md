@@ -1,7 +1,5 @@
 # Ignite Feed
 
-Este projeto foi desenvolvido durante o curso Ignite da [Rocketseat](https://www.rocketseat.com.br), com o objetivo de aprofundar os conhecimentos em React e boas práticas de programação.  
-
 <img src="https://i.imgur.com/L5tX1l2.png" />
 
 [Visualizar projeto.](https://carlosdanielss.github.io/ignite-feed/)
