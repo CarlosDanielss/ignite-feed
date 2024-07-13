@@ -57,7 +57,3 @@ npm install
 ```sh
 npm run dev
 ```
-
-## Contato
-
-E-mail: carlos.daniel.0486@gmail.com
