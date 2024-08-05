@@ -2,8 +2,6 @@
 
 <img src="https://i.imgur.com/L5tX1l2.png" />
 
-[Visualizar projeto.](https://carlosdanielss.github.io/ignite-feed/)
-
 ## Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
